@@ -5622,6 +5622,9 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+/*$break-medium: 980px;
+$nav-width: 240px;
+$site-width: 1600px;*/
 /*menu*/
 .menu {
   padding: 0; }
@@ -5629,9 +5632,6 @@ button.close {
 .row {
   margin: 0;
   z-index: 20; }
-
-.navbar-default {
-  margin: 0; }
 
 .fa-home:before {
   padding: 0 5% 10%;
@@ -5660,26 +5660,75 @@ border-right: 1px solid #F95A08;*/ }
     position: fixed;
     background-color: white;
     height: 100%;
-    border-right: 1px solid grey;
     padding: 0; }
     .menu section ul li {
       width: 100%;
-      color: #ff5403;
+      color: black;
       margin: auto;
       margin: auto;
-      font-size: 10px;
+      font-size: 11px;
       text-align: center;
       margin: 7% 0 0 0; }
 
 .hover {
-  padding: 32% 0; }
+  padding: 12% 9%;
+  border-bottom: 1px solid #adadad; }
 
 .hover:hover {
-  background-color: #f0a623;
+  background-color: white;
   color: white; }
 
 .hover:hover li {
-  color: white; }
+  color: red; }
+
+.horizontal {
+  border-bottom: 2px solid black; }
+  .horizontal .navbar-brand {
+    padding: 10% 40%; }
+  .horizontal .glyphicon-globe:before {
+    font-size: 36px; }
+  .horizontal .navbar-default {
+    margin: 0; }
+  .horizontal .container-fluid {
+    position: fixed;
+    width: 100%; }
+
+.segundo {
+  padding: 1% 0 0 0;
+  border-bottom: 1px solid #a5a5a5; }
+  .segundo .navbar-default {
+    margin: 0; }
+    .segundo .navbar-default .container-fluid {
+      position: fixed;
+      width: 90%;
+      padding: 0; }
+
+.hover2 {
+  padding: 2% 3%;
+  display: inline-block;
+  text-align: center;
+  color: black; }
+  .hover2 ul {
+    width: 100%; }
+    .hover2 ul li {
+      color: black;
+      font-size: 11px;
+      text-align: center;
+      margin: 7% 0 0 0;
+      margin-top: 3px; }
+
+.imagen-circle .imag {
+  width: 11%;
+  margin: 0 3% 0 14%; }
+  .imagen-circle .imag a {
+    padding: 0; }
+    .imagen-circle .imag a img {
+      width: 100%; }
+.imagen-circle .violeta {
+  padding: 2% 10% 2% 36%; }
+
+.circle {
+  border-radius: 50%; }
 
 /*content2*/
 
