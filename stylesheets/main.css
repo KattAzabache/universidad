@@ -5718,14 +5718,14 @@ border-right: 1px solid #F95A08;*/ }
       margin-top: 3px; }
 
 .imagen-circle .imag {
-  width: 11%;
+  width: 10%;
   margin: 0 3% 0 14%; }
   .imagen-circle .imag a {
     padding: 0; }
     .imagen-circle .imag a img {
       width: 100%; }
 .imagen-circle .violeta {
-  padding: 2% 10% 2% 36%; }
+  padding: 2% 10% 2% 35%; }
 
 .circle {
   border-radius: 50%; }
