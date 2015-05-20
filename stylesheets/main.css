@@ -5745,6 +5745,20 @@ border-right: 1px solid #F95A08;*/ }
   margin-left: -267%;
   top: 122%; }
 
+.dropdown-menu li a:hover {
+  background-color: black;
+  color: white; }
+
+.triangulo {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 13px solid #D6D5D5;
+  position: relative;
+  right: -77%;
+  top: -17px; }
+
 /*content2*/
 .horario,
 .curso {
