@@ -5741,6 +5741,10 @@ border-right: 1px solid #F95A08;*/ }
     width: 100%;
     border-radius: 50%; }
 
+.dropdown-menu {
+  margin-left: -267%;
+  top: 122%; }
+
 /*content2*/
 .horario,
 .curso {
