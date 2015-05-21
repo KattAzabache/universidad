@@ -164,12 +164,131 @@ margin-top: 10%;
    }
 }
 .cuadro-horario-text {
+  background-color: white;
+  border-bottom: 2px solid rgb(195, 190, 190);
   [class*="col-"]{
     padding: 0;
   }
-  ul{
-    padding: 24%;
-    list-style: none;
-    margin: 0;
+  .MO{
+    padding: 2%;
+    text-align: center;
+   }
+  .AM{
+    padding: 2% 3%;
+    text-align: center;
+  }
+  .Proceso{
+    padding: 0px 1%;
+    text-align: center;
+    h6{
+      font-size: 10px;
+    }
+  }
+  .M-21{
+    padding: 2% 3%;
+    text-align: center;
   }
 }
+.vacio{
+  height: 45px;
+  background-color: white;
+  border-bottom: 2px solid rgb(195, 190, 190);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
