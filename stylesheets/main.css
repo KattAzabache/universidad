@@ -5656,7 +5656,6 @@ $site-width: 1600px;*/
   text-align: center;
   position: fixed;
   background-color: white;
-  height: 100%;
   padding: 0 0%; }
   .menu section ul li {
     width: 100%;
@@ -5729,7 +5728,7 @@ $site-width: 1600px;*/
     z-index: 10000;
     padding: 0;
     border-bottom: 1px solid grey;
-    top: 50px; }
+    top: 49px; }
 
 .segundo div#bs-example-navbar-collapse-1 {
   padding: 0; }
