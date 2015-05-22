@@ -5725,10 +5725,10 @@ $site-width: 1600px;*/
     width: 100%;
     padding: 0;
     position: fixed;
-    background-color: #e8e8e8;
+    background-color: white;
     z-index: 10000;
     padding: 0;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
     top: 50px; }
 
 .segundo div#bs-example-navbar-collapse-1 {
